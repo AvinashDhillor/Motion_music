@@ -4,7 +4,7 @@
 
 ## Link
 
-https://github.com/AvinashDhillor/Motion_music
+https://avinashdhillor.github.io/Motion_music/
 
 ---
 
