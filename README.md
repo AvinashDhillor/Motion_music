@@ -1,4 +1,4 @@
-# Coding Challenge - Motion Music Applicaiton
+# Coding Challenge - Motion Music Application
 
 ---
 
