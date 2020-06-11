@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Monoton", cursive;
+  background: -webkit-linear-gradient(rgb(64, 5, 160), rgb(240, 22, 142));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to right,
+    rgba(0, 174, 255, 0.4),
+    rgb(151, 18, 151, 0.4)
+  );
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.parent_container {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  opacity: 0.87;
+}
+
+.animation {
+  width: 450px;
+  height: 250px;
+}
+
+#video {
+  visibility: hidden;
+  border: 1px solid blue;
+  position: absolute;
+  z-index: -1;
+}
